@@ -23,10 +23,10 @@ local act = wezterm.action
 config.keys = {
   {
     key = 'b',
-    mods = 'CTRL',
+    mods = 'SHIFT|CTRL',
     action = act.RotatePanes 'CounterClockwise',
   },
-  { key = 'n', mods = 'CTRL', action = act.RotatePanes 'Clockwise' },
+  { key = 'n', mods = 'SHIFT|CTRL', action = act.RotatePanes 'Clockwise' },
 }
 
 
