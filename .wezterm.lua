@@ -14,6 +14,12 @@ end
 
 -- For example, changing the color scheme:
 config.color_scheme = 'Ayu Dark (Gogh)'
+config.colors = {
+  -- Overrides the text color when the current cell is occupied by the cursor
+  cursor_fg = 'black',
+
+}
+
 
 config.hide_tab_bar_if_only_one_tab = true
 config.window_close_confirmation = 'NeverPrompt'
