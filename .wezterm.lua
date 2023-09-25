@@ -15,8 +15,8 @@ end
 -- For example, changing the color scheme:
 config.color_scheme = 'Ayu Dark (Gogh)'
 config.colors = {
-  -- Overrides the text color when the current cell is occupied by the cursor
-  cursor_fg = 'black',
+    -- Overrides the text color when the current cell is occupied by the cursor
+    cursor_fg = 'black',
 
 }
 
@@ -27,12 +27,12 @@ config.window_close_confirmation = 'NeverPrompt'
 local act = wezterm.action
 
 config.keys = {
-  {
-    key = 'b',
-    mods = 'SHIFT|CTRL',
-    action = act.RotatePanes 'CounterClockwise',
-  },
-  { key = 'n', mods = 'SHIFT|CTRL', action = act.RotatePanes 'Clockwise' },
+    {
+        key = 'b',
+        mods = 'SHIFT|CTRL',
+        action = act.RotatePanes 'CounterClockwise',
+    },
+    { key = 'n', mods = 'SHIFT|CTRL', action = act.RotatePanes 'Clockwise' },
 }
 
 
