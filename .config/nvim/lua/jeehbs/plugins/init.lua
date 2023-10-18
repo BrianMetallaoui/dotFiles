@@ -1,4 +1,5 @@
-return {'hrsh7th/cmp-nvim-lua', 'ThePrimeagen/vim-be-good', 'mfussenegger/nvim-dap', {
+return { 'hrsh7th/cmp-nvim-lua', 'ThePrimeagen/vim-be-good', 'mfussenegger/nvim-dap', 'mfussenegger/nvim-dap',
+    'williamboman/mason.nvim', {
     'numToStr/Comment.nvim',
     config = function()
         require('Comment').setup()
@@ -6,5 +7,5 @@ return {'hrsh7th/cmp-nvim-lua', 'ThePrimeagen/vim-be-good', 'mfussenegger/nvim-d
 }, {
     'akinsho/flutter-tools.nvim',
     lazy = false,
-    dependencies = {'nvim-lua/plenary.nvim', 'stevearc/dressing.nvim'}
-}}
+    dependencies = { 'nvim-lua/plenary.nvim', 'stevearc/dressing.nvim' }
+} }
